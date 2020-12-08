@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>LOGIN</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="heading">
+        <h1>LOGIN</h1>
+      </div>
+      <form>
+        <div class="error-empty error"></div><br>
+        <input type="text" placeholder="USERNAME" id="username" /><br />
+        <div class="error-username error"></div><br>
+        <input type="password" placeholder="PASSWORD" id="password" /><br>
+        <div class="error-password error"></div><br>
+      </form>
+      <div id="action">
+        <div class="login">
+          <button id="login-btn">LOGIN</button>
+        </div>
+        <div class="forget">
+          <h1><a href="#">Forget Password?</a></h1>
+        </div>
+      </div>
+      <div class="error-login error"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
